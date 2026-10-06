@@ -1,11 +1,11 @@
-import { ILLUSTRATIONS } from '../data.mjs';
 import Header from '@/components/Header/Header';
 import Gallery from '@/components/Gallery/Gallery';
-import Illustration from '@/components/Illustration/Illustration';
+import Navbar from '@/components/Navbar/Navbar';
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Header />
       <main className="container">
         <div className="row">
