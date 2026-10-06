@@ -7,8 +7,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main>
-        <Gallery />
+      <main className="container">
+        <div className="row">
+          <Gallery />
+        </div>
       </main>
     </div>
   );
