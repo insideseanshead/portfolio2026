@@ -16,3 +16,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Keep the page scrollbar visible while a Bootstrap modal (the lightbox) is open */
+body.modal-open {
+  overflow: auto !important;
+  padding-right: 0 !important;
+}
+
+/* bs5-lightbox letterboxes images in a black 16:9 box; drop the black fill */
+.lightbox .ratio {
+  background-color: transparent !important;
+}
