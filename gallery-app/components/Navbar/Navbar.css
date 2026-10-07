@@ -1,4 +1,23 @@
 #nav {
     width:100vw;
-    position: fixed;
+    position: static;
+    margin-bottom: auto;
+}
+
+#nav .navLayout {
+    justify-content: center;
+    gap: 1rem;
+}
+
+#nav .navLayout .navbar-brand {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: rgba(255,255,255, 0.5);
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+    color: #fff
 }
