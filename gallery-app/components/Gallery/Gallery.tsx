@@ -1,5 +1,5 @@
 import { ILLUSTRATIONS } from '@/data.mjs';
-import Illustration from '../Illustration/Thumbnail';
+import Illustration from '../Illustration/Illustration';
 import './Gallery.css';
 
 export default function Gallery() {

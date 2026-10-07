@@ -17,8 +17,9 @@ export default function Illustration({ image, title, description }) {
       data-gallery="example-gallery"
       data-caption={description}
       onClick={openLightbox}
+      className="frame"
     >
-      <img src={image.src} className="img-thumbnail" alt={title} />
+      <img src={image.src} className="thumbnail" alt={title} />
     </a>
     // <div className="card illustrationCard">
     //   <img src={image.src} className="card-img-top" alt={title} />
